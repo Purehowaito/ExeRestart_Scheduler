@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/de830c75-3ff8-4738-b761-5492f7cfbb78" />
+
 A Windows desktop application developed in C++ for managing multiple executable programs (.exe) and automatically restarting them when long-term operation causes memory leaks. The program uses forced process termination, so please make sure any data in the target processes has been properly saved.
 
 基于C++开发的Windows桌面应用程序，用于管理并自动重启因长期运行导致内存泄漏的多个可执行程序（.exe）；程序采用强制终止进程的方式，因此请确保目标进程的数据已妥善保存。
