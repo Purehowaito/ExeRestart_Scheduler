@@ -1,21 +1,45 @@
-<img width="788" height="545" alt="1" src="https://github.com/user-attachments/assets/3de991ff-4e67-4e02-80ac-f0f88af0abb2" />
+<img width="600" height="465" alt="ExeRestart Scheduler" src="https://github.com/user-attachments/assets/0b38498f-5c79-4e05-a82f-02372bacfce3" />
 
-**A Windows desktop application developed in C++ for managing multiple executable programs (.exe) and automatically restarting them when long-term operation causes memory leaks. The program uses forced process termination, so please make sure any data in the target processes has been properly saved.**
+**A lightweight Windows system tool developed in C++ that supports batch multi-instance grouped scheduling and automatic restart of EXE programs to avoid memory leaks caused by long-term operation.**
 
-**基于C++开发的Windows桌面应用程序，用于管理并自动重启因长期运行导致内存泄漏的多个可执行程序（.exe）；程序采用强制终止进程的方式，因此请确保目标进程的数据已妥善保存。**
+**This program uses forced process termination, so please ensure that the data of the target processes has been properly saved.**
 
-**C++で開発されたWindowsデスクトップアプリケーションで、長時間の稼働によってメモリリークが発生した複数の実行ファイル（.exe）を管理し、自動的に再起動します。本プログラムはプロセスを強制終了する方式を採用しているため、対象プロセス内のデータは事前に適切に保存しておいてください。**
+**基于 C++ 开发的轻量级 Windows 系统工具，支持 EXE 程序批量多实例分组调度与自动重启，以规避长期运行导致的内存泄漏。**
 
-**C++로 개발된 Windows 데스크톱 애플리케이션으로, 장시간 실행으로 인해 메모리 누수가 발생한 여러 실행 파일(.exe)을 관리하고 자동으로 재시작합니다.이 프로그램은 프로세스를 강제 종료하는 방식을 사용하므로, 대상 프로세스의 데이터가 미리 안전하게 저장되어 있는지 확인해 주시기 바랍니다.**
+**该程序采用强制终止进程的方式，因此请确保目标进程的数据已妥善保存。**
 
-## 更新日志
+**C++で開発された軽量のWindowsシステムツールで、EXEプログラムの複数インスタンスの一括グループスケジューリングと自動再起動をサポートし、長時間稼働によるメモリリークを回避します。**
 
+**本ツールはプロセスを強制終了する方式を採用しているため、対象プロセスのデータが適切に保存されていることを確認してください。**
+
+**C++로 개발된 경량 Windows 시스템 도구로, EXE 프로그램의 다중 인스턴스 일괄 그룹 스케줄링과 자동 재시작을 지원하여 장시간 실행으로 인한 메모리 누수를 방지합니다.**
+
+**이 도구는 프로세스를 강제 종료하는 방식을 사용하므로 대상 프로세스의 데이터가 적절히 저장되었는지 확인하십시오.**
+
+## **更新日志**
+
+- **2026-08-25 Ver 1.2**
+    
+    改进了UI与交互逻辑、重做程序图标、修正界面翻译
+    
+    新增进程自动保活，当目标进程因崩溃或外部终止时将自动重新拉起
+    
+    全局停止热键（Ctrl+Alt+0）改用更可靠的底层监听方式，避免热键冲突
+    
+    改用静态链接编译，无需额外安装 VC++ 运行库，部署更便捷
+    
+    新增版本配置校验，不匹配时自动重置设置，规避跨版本异常
+    
+    新增首次启动时自动适配 Windows 显示语言
+    
 - **2026-04-10 Ver 1.1**
-    
-    新增组概念，支持 3 个独立配置组，每组最多 7 个实例
-    
-    新增全局热键停止
     
     改进了UI、进程检测与终止等逻辑
     
+    新增组概念，支持 3 个独立配置组，每组最多 7 个实例
+    
+    新增全局停止热键
+    
 - **2026-03-23 Ver 1.0**
+    
+    初始
