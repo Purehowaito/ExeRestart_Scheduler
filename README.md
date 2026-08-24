@@ -1,20 +1,20 @@
 <img width="600" height="465" alt="ExeRestart Scheduler" src="https://github.com/user-attachments/assets/0b38498f-5c79-4e05-a82f-02372bacfce3" />
 
-**A lightweight Windows system tool developed in C++ that supports batch multi-instance grouped scheduling and automatic restart of EXE programs to avoid memory leaks caused by long-term operation.**
+**A lightweight Windows system tool developed in C++ that supports batch scheduling of multiple EXE program instances in groups and automatic restart to prevent memory leaks caused by long-term operation.**
 
-**This program uses forced process termination, so please ensure that the data of the target processes has been properly saved.**
+**Note: This program forcibly terminates processes, so please ensure that the data of the target processes has been properly saved.**
 
 **基于 C++ 开发的轻量级 Windows 系统工具，支持 EXE 程序批量多实例分组调度与自动重启，以规避长期运行导致的内存泄漏。**
 
-**该程序采用强制终止进程的方式，因此请确保目标进程的数据已妥善保存。**
+**注意：该程序采用强制终止进程的方式，因此请确保目标进程的数据已妥善保存。**
 
-**C++で開発された軽量のWindowsシステムツールで、EXEプログラムの複数インスタンスの一括グループスケジューリングと自動再起動をサポートし、長時間稼働によるメモリリークを回避します。**
+**C++で開発された軽量のWindowsシステムツールで、EXEプログラムの複数インスタンスをグループ単位で一括スケジューリングし、自動再起動することで、長時間稼働によるメモリリークを回避します。**
 
-**本ツールはプロセスを強制終了する方式を採用しているため、対象プロセスのデータが適切に保存されていることを確認してください。**
+**注意：本プログラムはプロセスを強制終了する方式を採用しているため、対象プロセスのデータが適切に保存されていることを確認してください。**
 
-**C++로 개발된 경량 Windows 시스템 도구로, EXE 프로그램의 다중 인스턴스 일괄 그룹 스케줄링과 자동 재시작을 지원하여 장시간 실행으로 인한 메모리 누수를 방지합니다.**
+**C++로 개발된 경량 Windows 시스템 도구로, EXE 프로그램의 여러 인스턴스를 그룹 단위로 일괄 스케줄링하고 자동 재시작하여 장시간 실행으로 인한 메모리 누수를 방지합니다.**
 
-**이 도구는 프로세스를 강제 종료하는 방식을 사용하므로 대상 프로세스의 데이터가 적절히 저장되었는지 확인하십시오.**
+**주의: 이 프로그램은 프로세스를 강제 종료하는 방식을 사용하므로 대상 프로세스의 데이터가 적절히 저장되었는지 확인하십시오.**
 
 ## **更新日志**
 
